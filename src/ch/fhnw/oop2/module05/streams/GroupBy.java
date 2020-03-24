@@ -11,11 +11,11 @@ public class GroupBy {
 	public static void main(String[] args) {
 		
 		List<Employee> employees = new ArrayList<>();
-		employees.add(new Employee("A", "Q"));
-		employees.add(new Employee("B", "R"));
-		employees.add(new Employee("C", "S"));
-		employees.add(new Employee("D", "Q"));
-		employees.add(new Employee("E", "R"));
+		employees.add(new Employee("Anna", "Q"));
+		employees.add(new Employee("Bernt", "R"));
+		employees.add(new Employee("Charles", "S"));
+		employees.add(new Employee("Dora", "Q"));
+		employees.add(new Employee("Erich", "R"));
 		
 		Map<String, List<Employee>> employeeByDepartments = 
 				employees
